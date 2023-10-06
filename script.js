@@ -30,7 +30,7 @@ const loop = setInterval(() => {
         kitty.style.animation = 'none';
         kitty.style.bottom = `${kittyPosition}px`;
 
-        kitty.src = './imagens/game-over.png';
+        kitty.src = 'game-over.png';
         kitty.style.width = '70px';
         kitty.style.marginLeft = '35px';
 
@@ -50,7 +50,7 @@ const restart = () => {
     pipe.style.animation = 'pipe-animations 1.5s infinite linear';
     pipe.style.left = ``;
 
-    kitty.src = './imagens/kitty.webp';
+    kitty.src = 'kitty.webp';
     kitty.style.width = '130px';
     kitty.style.bottom = '0px';
     kitty.style.marginLeft = '';
@@ -72,7 +72,7 @@ const restart = () => {
             kitty.style.animation = 'none';
             kitty.style.bottom = `${kittyPosition}px`;
     
-            kitty.src = './imagens/game-over.png';
+            kitty.src = 'game-over.png';
             kitty.style.width = '70px';
             kitty.style.marginLeft = '35px';
     
